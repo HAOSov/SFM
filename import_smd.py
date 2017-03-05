@@ -1,4 +1,4 @@
-﻿#  Copyright (c) 2014 Tom Edwards contact@steamreview.org
+#  Copyright (c) 2014 Tom Edwards contact@steamreview.org
 #
 # ##### BEGIN GPL LICENSE BLOCK #####
 #
@@ -18,7 +18,8 @@
 #
 # ##### END GPL LICENSE BLOCK #####
 
-import bpy, bmesh, random, collections
+import bpy, bmesh, random, collections, time
+from datatime import datatime
 from bpy import ops
 from bpy.app.translations import pgettext
 from bpy.props import *
